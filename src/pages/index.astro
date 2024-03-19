@@ -1,7 +1,21 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '@/layouts/Layout.astro';
+
+import About from '@/components/About.astro';
+import Education from '@/components/Education.astro';
+import Experience from '@/components/Experience.astro';
+import Hero from '@/components/Hero.astro';
+import Projects from '@/components/Projects.astro';
+import Skills from '@/components/Skills.astro';
 ---
 
 <Layout title="Mi Portafolio">
-	<h1>Hola Mundo</h1>
+	<main>
+		<Hero />
+		<About />
+		<Experience />
+		<Education />
+		<Projects />
+		<Skills />
+	</main>
 </Layout>
