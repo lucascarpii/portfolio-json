@@ -1,0 +1,117 @@
+{
+  "basics": {
+    "name": "Lucas Daniel Fuentes",
+    "label": "Frontend Developer",
+    "image": "/me.webp",
+    "email": "lucascarpii2002@gmail.com",
+    "phone": "+54 2996280574",
+    "url": "https://tamnora.com",
+    "summary": "As a freelancer, I've designed and created applications for the past two years. Each project has been an opportunity to refine my skills and broaden my knowledge. I'm now seeking an opportunity to work with a development team where I can collaborate closely and learn from my peers.",
+    "location": {
+      "address": "",
+      "postalCode": "8324",
+      "city": "Cipolletti",
+      "countryCode": "AR",
+      "region": "Rio Negro, Argentina"
+    },
+    "profiles": [
+      {
+        "network": "LinkedIn",
+        "username": "lucascarpii",
+        "url": "https://linkedin.com/in/lucascarpii"
+      },
+      {
+        "network": "GitHub",
+        "username": "lucascarpii",
+        "url": "https://github.com/lucascarpii"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Tamnora",
+      "position": "Frontend Developer",
+      "url": "",
+      "startDate": "2022-02-01",
+      "endDate": null,
+      "summary": "As a Frontend Developer at Tamnora, I've been involved in designing and developing user interfaces for the company's clients. Additionally, I've contributed to the development of reusable components for various projects. Despite being part of a small team, we have focused on ensuring the delivery of high-quality products."
+    },
+    {
+      "name": "Instituto superior ISEI",
+      "position": "Freelance Frontend Developer",
+      "url": "",
+      "startDate": "2023-01-01",
+      "endDate": "2023-12-01",
+      "summary": "Led the redevelopment of ISEI's virtual campus frontend, transitioning from PHP to modern technologies such as ReactJS, Tailwind, and Vite. This redesign enhanced user experience, navigation, and overall performance of the platform."
+    },
+    {
+      "name": "Distri DAF",
+      "position": "Freelance Frontend Developer",
+      "url": "",
+      "startDate": "2023-05-01",
+      "endDate": "2023-11-01",
+      "summary": "Conceptualized and developed a custom application for Distri DAF to streamline expense and income management processes, effectively addressing issues with cash flow and reducing financial losses due to inefficient debt collection practices."
+    }
+  ],
+  "education": [
+    {
+      "institution": "Platzi",
+      "url": "https://platzi.com/p/lucascarpii",
+      "area": "Software Development",
+      "studyType": "Online Courses",
+      "startDate": "2019",
+      "endDate": "2025",
+      "score": "",
+      "courses": []
+    }
+  ],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
+  "skills": [
+    {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "ReactJS"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "ReactJS"
+      ]
+    },
+    {
+      "name": "HTML",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development"
+      ]
+    },
+    {
+      "name": "CSS",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "TailwindCSS"
+      ]
+    },
+    {
+      "name": "Git",
+      "level": "Advanced",
+      "keywords": [
+        "Version Control"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "English",
+      "fluency": "B2 - Upper Intermediate"
+    }
+  ],
+  "interests": [],
+  "references": [],
+  "projects": []
+}

@@ -1,10 +1,10 @@
 {
   "basics": {
     "name": "Lucas Daniel Fuentes",
-    "label": "Frontend Developer hace 2 años",
+    "label": "Desarrollador Frontend",
     "image": "/me.webp",
-    "email": "tamnoralucas@gmail.com",
-    "phone": "+54 02996280574",
+    "email": "lucascarpii2002@gmail.com",
+    "phone": "+54 2996280574",
     "url": "https://tamnora.com",
     "summary": "Como freelancer, he diseñado y creado aplicaciones durante los últimos dos años. Cada proyecto ha sido una oportunidad para refinar mis habilidades y ampliar mis conocimientos. Ahora estoy buscando la oportunidad de trabajar con un equipo donde pueda crecer y seguir aprendiendo.",
     "location": {
@@ -12,7 +12,7 @@
       "postalCode": "8324",
       "city": "Cipolletti",
       "countryCode": "AR",
-      "region": "Rio Negro, Argentina"
+      "region": "Río Negro, Argentina"
     },
     "profiles": [
       {
@@ -30,134 +30,111 @@
   "work": [
     {
       "name": "Tamnora",
-      "position": "Frontend Developer",
+      "position": "Desarrollador Frontend",
       "url": "",
       "startDate": "2022-02-01",
       "endDate": null,
-      "summary": "Como Frontend Developer en Tamnora, he participado en el diseño y desarrollo de interfaces de usuario para los clientes de la empresa. Además, he contribuido al desarrollo de componentes reutilizables para varios proyectos. A pesar de formar parte de un equipo pequeño, he colaborado estrechamente con mis colegas para garantizar que los proyectos se entreguen a tiempo y dentro de los límites del presupuesto."
+      "summary": "Como Desarrollador Frontend en Tamnora, he participado en el diseño y desarrollo de interfaces de usuario para los clientes de la empresa. Además, he contribuido al desarrollo de componentes reutilizables para varios proyectos. A pesar de formar parte de un equipo pequeño, nos hemos centrado en garantizar la entrega de productos de alta calidad."
     },
     {
-      "name": "Instituto superior ISEI",
-      "position": "Freelance Frontend Developer",
+      "name": "Instituto Superior ISEI",
+      "position": "Desarrollador Frontend Freelance",
       "url": "",
       "startDate": "2023-01-01",
       "endDate": "2023-12-01",
-      "summary": "Dirigí la reestructuración del frontend del campus virtual de ISEI, migrando desde PHP a tecnologías modernas como ReactJS, Tailwind y Vite. Esta rediseño mejoró la experiencia del usuario, la navegación y el rendimiento general de la plataforma."
+      "summary": "Realicé la reestructuración del frontend del campus virtual de ISEI, pasando de PHP a tecnologías modernas como ReactJS, Tailwind y Vite. Este rediseño mejoró la experiencia del usuario, la navegación y el rendimiento general de la plataforma."
     },
     {
       "name": "Distri DAF",
-      "position": "Freelance Frontend Developer",
+      "position": "Desarrollador Frontend Freelance",
       "url": "",
       "startDate": "2023-05-01",
       "endDate": "2023-11-01",
-      "summary": "Conceptualicé y desarrollé una aplicación personalizada para Distri DAF para optimizar los procesos de gestión de gastos e ingresos, abordando eficazmente problemas con el flujo de efectivo y reduciendo pérdidas financieras debido a prácticas ineficientes de cobranza de deudas."
+      "summary": "Conceptualicé y desarrollé una aplicación personalizada para Distri DAF para optimizar los procesos de gestión de gastos e ingresos, abordando eficazmente problemas con el flujo de efectivo y reduciendo las pérdidas financieras debido a prácticas ineficientes de cobranza de deudas."
     }
   ],
   "education": [
     {
       "institution": "Platzi",
       "url": "https://platzi.com/p/lucascarpii",
-      "area": "Software Development",
-      "studyType": "Online Courses",
+      "area": "Desarrollo de Software",
+      "studyType": "Cursos en línea",
       "startDate": "2019",
       "endDate": "2025",
       "score": "",
       "courses": []
     }
   ],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
-  "certificates": [{
-    "name": "Certificate",
-    "date": "2021-11-07",
-    "issuer": "Company",
-    "url": "https://certificate.com"
-  }],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+  "awards": [],
+  "certificates": [],
+  "publications": [],
   "skills": [
     {
       "name": "HTML",
-      "level": "Master",
+      "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Frontend"
       ]
     },
     {
       "name": "CSS",
-      "level": "Master",
+      "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Frontend", "Diseño Responsive"
       ]
     },
     {
       "name": "JavaScript",
-      "level": "Master",
+      "level": "Avanzado",
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "Fullstack"
       ]
     },
     {
       "name": "Tailwind",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
       ]
     },
     {
       "name": "TypeScript",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Backend", "JavaScript", "Servidor"
       ]
     },
     {
       "name": "MySQL",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
         "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
       ]
     },
     {
       "name": "Git",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente"
       ]
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
         "Control de Versiones", "Colaboración", "Código Fuente", "Git"
       ]
     },
     {
-      "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
-    },
-    {
       "name": "React",
-      "level": "Avanzado",
+      "level": "Intermedio",
       "keywords": [
         "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
       ]
@@ -165,87 +142,11 @@
   ],
   "languages": [
     {
-      "language": "Spanish",
-      "fluency": "Native speaker"
-    },
-    {
-      "language": "English",
-      "fluency": "Advanced"
+      "language": "Inglés",
+      "fluency": "B2 - Intermedio Superior"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "Ferrets",
-      "Unicorns"
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
-  "projects": [
-    {
-      "name": "mars.codes",
-      "isActive": true,
-      "description": "Historia interactiva con retos de programación para viajar a Marte",
-      "highlights": [
-        "Elige tu propia aventura",
-        "En desarrollo"
-      ],
-      "url": "https://mars.codes"
-    },
-    {
-      "name": "AdventJS",
-      "isActive": true,
-      "description": "Retos de programación en JavaScript para cada día de diciembre hasta Navidad",
-      "highlights": [
-        "+1 millón de visitas",
-        "Multidioma",
-        "JavaScript & TypeScript"
-      ],
-      "url": "https://adventjs.dev"
-    },
-    {
-      "name": "Codember",
-      "isActive": true,
-      "description": "Juego interactivo de programación con retos y secretos",
-      "highlights": [
-        "+2000 usuarios activos",
-        "Retos para cualquier lenguaje"
-      ],
-      "url": "https://codember.dev"
-    },
-    {
-      "name": "codi.link",
-      "isActive": true,
-      "description": "Playground de código HTML, CSS y JavaScript para compartir",
-      "highlights": [
-        "100k visitas al mes",
-        "Desarrollado por la comunidad"
-      ],
-      "url": "https://codi.link",
-      "github": "https://github.com/midudev/codi.link"
-    },
-    {
-      "name": "Pruebas Técnicas",
-      "isActive": true,
-      "description": "Lista de pruebas técnicas de empresas para practicar programación",
-      "highlights": [
-        "100% gratuito",
-        "+500 soluciones de la comunidad"
-      ],
-      "url": "https://pruebastecnicas.com",
-      "github": "https://github.com/midudev/pruebas-tecnicas"
-    },
-    {
-      "name": "miduConf",
-      "description": "Conferencia de programación en streaming para la comunidad hispanohablante con charlas top",
-      "highlights": [
-        "+15k tickets repartidos",
-        "+50k espectadores en directo"
-      ],
-      "url": "https://miduconf.com"
-    }
-  ]
+  "interests": [],
+  "references": [],
+  "projects": []
 }
