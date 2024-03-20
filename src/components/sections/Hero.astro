@@ -20,72 +20,55 @@ const SOCIAL_ICONS: SocialIcon = {
 
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn");
 const linkedUrl = linkedInfo?.url;
-
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ");
 ---
 
 <Section>
-  <div class="grid grid-cols-4 sm:grid-cols-[100px_auto] gap-4 p-4 sm:py-6 border-b dark:border-neutral-800" >
-    <figure>
+  <div class="grid xs:grid-cols-[100px_auto] gap-4">
+    <figure class="my-auto">
       <img
         src={image}
         alt={name}
-        class="max-w-[100px] transition-all duration-200 hover:-translate-y-1 rounded-full my-auto"
+        class="max-w-[100px] transition-all duration-200 hover:scale-105 rounded-full my-auto"
       />
     </figure>
-    <div class="flex flex-col items-start justify-center col-span-3 sm:col-span-1">
-      <h1
-        class="text-neutral-600 dark:text-neutral-200 text-xl sm:text-2xl font-semibold"
-      >
-        <span class="print:hidden">Hola, soy</span>
-        <span
-          class="print:text-neutral-600 text-transparent bg-clip-text bg-gradient-to-l to-blue-600 from-purple-500 dark:from-blue-600 dark:to-purple-400"
-        >
+    <div class="flex flex-col items-start justify-center">
+      <h1 class="text-neutral-600 dark:text-neutral-200 text-xl sm:text-2xl font-semibold">
+        Hola, soy{" "}
+        <span class="text-transparent bg-clip-text bg-gradient-to-l to-blue-600 from-purple-500 dark:from-blue-600 dark:to-purple-400">
           {name}
         </span>
       </h1>
       <h2 class="text-neutral-400 dark:text-neutral-400 text-md">{label}</h2>
-      <span
-        class="flex items-center gap-1 text-neutral-400 dark:text-neutral-400 text-md"
-      >
-        <WorldMap />
-        {city}, {region}
+      <span class="flex items-center gap-1 text-neutral-400 dark:text-neutral-400 text-sm">
+        <WorldMap /> {city}, {region}
       </span>
-
-      <footer class="hidden print:block">
-        {printInfo}
-      </footer>
-      <footer class="print:hidden flex">
-        {
-          email && (
+      <footer class="print:hidden flex text-sm gap-1 mt-1">
+        {email && (
+          <a
+            href={`mailto:${email}`}
+            title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+            target="_blank"
+            rel="noopener noreferrer"
+            class="flex h-fit border items-center gap-1 p-1.5 rounded-md focus:ring-2 ring-neutral-200 dark:ring-neutral-700 hover:bg-neutral-100 hover:dark:bg-neutral-800 focus:bg-neutral-100 focus:dark:bg-neutral-800 text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-200"
+          >
+            <Mail />
+          </a>
+        )}
+        {profiles.map(({ network, url, username }) => {
+          const Icon = SOCIAL_ICONS[network];
+          return (
             <a
-              href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              href={url}
+              title={`Visitar el perfil de ${name} en ${network}`}
               target="_blank"
               rel="noopener noreferrer"
-              class="flex items-center gap-1 p-1.5 rounded-md focus:ring-2 ring-neutral-200 dark:ring-neutral-700 hover:bg-neutral-100 hover:dark:bg-neutral-800 focus:bg-neutral-100 focus:dark:bg-neutral-800 text-neutral-400 hover:text-sky-600 dark:hover:text-neutral-200"
+              class="flex max-h-[30px] border items-center gap-1 p-1.5 rounded-md focus:ring-2 ring-neutral-200 dark:ring-neutral-700 hover:bg-neutral-100 hover:dark:bg-neutral-800 focus:bg-neutral-100 focus:dark:bg-neutral-800 text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-200"
             >
-              <Mail />
+              <Icon />
+              <span>{network}</span>
             </a>
-          )
-        }
-        {
-          profiles.map(({ network, url, username }) => {
-            const Icon = SOCIAL_ICONS[network];
-
-            return (
-              <a
-                href={url}
-                title={`Visitar el perfil de ${name} en ${network}`}
-                target="_blank"
-                rel="noopener noreferrer"
-                class="flex items-center gap-1 p-1.5 rounded-md focus:ring-2 ring-neutral-200 dark:ring-neutral-700 hover:bg-neutral-100 hover:dark:bg-neutral-800 focus:bg-neutral-100 focus:dark:bg-neutral-800 text-neutral-400 hover:text-sky-600 dark:hover:text-neutral-200"
-              >
-                <Icon />
-              </a>
-            );
-          })
-        }
+          );
+        })}
       </footer>
     </div>
   </div>
