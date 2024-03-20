@@ -1,7 +1,79 @@
 ---
-import Section from "@/components/Section.astro";
+import GitHub from "@/icons/GitHub.astro"
+import Section from "../Section.astro"
+
+import { projects } from "@cv"
 ---
 
-<Section title="Projects">
-
+<Section title="Proyectos">
+  <ul class="mt-6">
+    {
+      projects.map(
+        ({ url, description, highlights, name, isActive, github }) => {
+          return (
+            <li>
+              <article class="rounded-lg border dark:border-neutral-800 gap-4 flex flex-col p-4 h-full">
+                <header class="flex-1">
+                  <h3 class="mb-1">
+                    <a href={url} target="_blank" title={`Ver el proyecto ${name}`}>
+                      {name}
+                    </a>
+                    {isActive && <span>•</span>}
+                    {github && (
+                      <a
+                        class="github-code-link underline"
+                        href={github}
+                        target="_blank"
+                        title={`Ver código fuente del proyecto ${name}`}
+                      >
+                        <GitHub />
+                      </a>
+                    )}
+                  </h3>
+                  <p class="mb-1 text-xs leading-5">{description}</p>
+                </header>
+                <footer class="flex flex-wrap gap-1 text-sm">
+                  {highlights.map((highlight) => {
+                    return <span class="rounded-lg text-xs p-1 bg-neutral-100 text-neutral-600 font-medium">{highlight}</span>
+                  })}
+                </footer>
+              </article>
+            </li>
+          )
+        }
+      )
+    }
+  </ul>
 </Section>
+
+<style>
+  ul {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  article h3 span {
+    color: rgb(0, 188, 47);
+    animation-name: flicker;
+    animation-duration: 3s;
+    animation-timing-function: ease-in;
+    animation-iteration-count: infinite;
+  }
+
+  .github-code-link {
+    margin-left: 5px;
+  }
+
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0.25;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+</style>
