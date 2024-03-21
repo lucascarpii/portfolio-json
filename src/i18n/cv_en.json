@@ -1,6 +1,6 @@
 {
   "basics": {
-    "name": "Lucas Daniel Fuentes",
+    "name": "Lucas Fuentes",
     "label": "Frontend Developer",
     "image": "/me.webp",
     "email": "lucascarpii2002@gmail.com",
@@ -70,38 +70,73 @@
   "publications": [],
   "skills": [
     {
-      "name": "JavaScript",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development", "ReactJS"
-      ]
-    },
-    {
-      "name": "TypeScript",
-      "level": "Advanced",
-      "keywords": [
-        "Web Development", "ReactJS"
-      ]
-    },
-    {
       "name": "HTML",
       "level": "Advanced",
       "keywords": [
-        "Web Development"
+        "Web Development", "Frontend"
       ]
     },
     {
       "name": "CSS",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "TailwindCSS"
+        "Web Development", "Frontend", "Responsive Design"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "level": "Advanced",
+      "keywords": [
+        "Web Development", "Frontend", "Backend", "Fullstack"
+      ]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development", "Frontend", "CSS Framework", "Responsive Design"
+      ]
+    },
+    {
+      "name": "TypeScript",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development", "Frontend", "Backend", "JavaScript Superset"
+      ]
+    },
+    {
+      "name": "Node",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development", "Backend", "JavaScript", "Server"
+      ]
+    },
+    {
+      "name": "MySQL",
+      "level": "Intermediate",
+      "keywords": [
+        "Databases", "SQL", "Data Storage", "Backend"
       ]
     },
     {
       "name": "Git",
-      "level": "Advanced",
+      "level": "Intermediate",
       "keywords": [
-        "Version Control"
+        "Version Control", "Collaboration", "Source Code"
+      ]
+    },
+    {
+      "name": "GitHub",
+      "level": "Intermediate",
+      "keywords": [
+        "Version Control", "Collaboration", "Source Code", "Git"
+      ]
+    },
+    {
+      "name": "React",
+      "level": "Intermediate",
+      "keywords": [
+        "Web Development", "Frontend", "JavaScript Library", "UI"
       ]
     }
   ],

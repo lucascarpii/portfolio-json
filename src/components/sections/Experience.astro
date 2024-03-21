@@ -1,10 +1,16 @@
 ---
 import Section from "../Section.astro"
 
-import { work } from "@cv"
+import { getI18N } from '@/i18n/index'
+const { currentLocale } = Astro;
+const i18n = getI18N({currentLocale})
+
+const { work } = i18n;
+
+const sectionTitle = currentLocale == 'es' ? 'Experiencia laboral' : 'Experience'
 ---
 
-<Section title="Experiencia laboral">
+<Section title={sectionTitle}>
   <ul id="experiencia" class="flex flex-col gap-8">
     {
       work.map(

@@ -1,13 +1,17 @@
 ---
-import { basics } from "@cv";
-import Section from "@/components/Section.astro";
-import Mail from "@/icons/Mail.astro";
-import X from "@/icons/X.astro";
-import LinkedIn from "@/icons/LinkedIn.astro";
 import GitHub from "@/icons/GitHub.astro";
-import WorldMap from "@/icons/WorldMap.astro";
+import LinkedIn from "@/icons/LinkedIn.astro";
+import Mail from "@/icons/Mail.astro";
+import Section from "@/components/Section.astro";
 import type { SocialIcon } from "@/types";
+import WorldMap from "@/icons/WorldMap.astro";
+import X from "@/icons/X.astro";
 
+import { getI18N } from '@/i18n/index'
+const { currentLocale } = Astro;
+const i18n = getI18N({currentLocale})
+
+const { basics } = i18n;
 const { name, label, image, location, profiles, email } = basics;
 const { city, region } = location;
 

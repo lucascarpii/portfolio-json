@@ -1,0 +1,22 @@
+---
+import Layout from '../../layouts/Layout.astro';
+
+import About from '../../components/sections/About.astro';
+import Experience from '../../components/sections/Experience.astro';
+import Hero from '../../components/sections/Hero.astro';
+import Skills from '../../components/sections/Skills.astro';
+import Header from '../../components/Header.astro';
+
+import { basics } from "../../i18n/cv_en.json"
+const { name, label } = basics
+---
+
+<Layout title={`${name} Portfolio`}>
+	<Header />
+	<main id="sobre-mi" class="max-w-screen-md mx-auto p-8 pt-10">
+		<Hero />
+		<About />
+		<Experience />
+		<Skills />
+	</main>
+</Layout>

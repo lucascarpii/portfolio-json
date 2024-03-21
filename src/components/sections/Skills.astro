@@ -11,7 +11,6 @@ import Git from "@/icons/git.astro"
 import GitHub from "@/icons/GitHub.astro"
 import Tailwind from "@/icons/tailwind.astro"
 import Next from "@/icons/next.astro"
-import { skills } from "@cv"
 import Swift from "@/icons/swift.astro"
 import SwiftUI from "@/icons/swiftui.astro"
 import Kotlin from "@/icons/kotlin.astro"
@@ -34,9 +33,17 @@ const SKILLS_ICONS: Record<string, any> = {
   Kotlin,
   Flutter,
 }
+
+import { getI18N } from '@/i18n/index'
+const { currentLocale } = Astro;
+const i18n = getI18N({currentLocale})
+
+const { skills } = i18n;
+
+const sectionTitle = currentLocale == 'es' ? 'Habilidades' : 'Skills'
 ---
 
-<Section title="Habilidades">
+<Section title={sectionTitle}>
   <ul class="mt-6 inline-flex gap-2 flex-wrap">
     {
       skills.map(({ name }) => {
