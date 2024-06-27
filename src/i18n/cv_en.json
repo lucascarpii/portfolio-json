@@ -32,24 +32,24 @@
       "name": "Tamnora",
       "position": "Frontend Developer",
       "url": "",
-      "startDate": "2022-02-01",
-      "endDate": null,
+      "startDate": "Feb 2022",
+      "endDate": "Present",
       "summary": "As a Frontend Developer at Tamnora, I've been involved in designing and developing user interfaces for the company's clients. Additionally, I've contributed to the development of reusable components for various projects. Despite being part of a small team, we have focused on ensuring the delivery of high-quality products."
     },
     {
       "name": "Instituto superior ISEI",
       "position": "Freelance Frontend Developer",
       "url": "",
-      "startDate": "2023-01-01",
-      "endDate": "2023-12-01",
+      "startDate": "Jan 2023",
+      "endDate": "Dec 2023",
       "summary": "Led the redevelopment of ISEI's virtual campus frontend, transitioning from PHP to modern technologies such as ReactJS, Tailwind, and Vite. This redesign enhanced user experience, navigation, and overall performance of the platform."
     },
     {
       "name": "Distri DAF",
       "position": "Freelance Frontend Developer",
       "url": "",
-      "startDate": "2023-05-01",
-      "endDate": "2023-11-01",
+      "startDate": "May 2023",
+      "endDate": "Nov 2023",
       "summary": "Conceptualized and developed a custom application for Distri DAF to streamline expense and income management processes, effectively addressing issues with cash flow and reducing financial losses due to inefficient debt collection practices."
     }
   ],
