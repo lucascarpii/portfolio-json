@@ -6,7 +6,7 @@
     "email": "lucascarpii2002@gmail.com",
     "phone": "+54 2996280574",
     "url": "https://tamnora.com",
-    "summary": "Como freelancer, he diseñado y creado aplicaciones durante los últimos dos años. Cada proyecto ha sido una oportunidad para refinar mis habilidades y ampliar mis conocimientos. Ahora estoy buscando la oportunidad de trabajar con un equipo donde pueda crecer y seguir aprendiendo.",
+    "summary": "Más de dos años de experiencia como Desarrollador Frontend. He contribuido al desarrollo de muchos proyectos, mejorando la interfaz y experiencia de usuario. Facilitando la creación y mantenimiento de sistemas a largo plazo. Busco seguir aprendiendo y creciendo en el campo del desarrollo full stack.",
     "location": {
       "address": "",
       "postalCode": "8324",
@@ -34,15 +34,26 @@
       "url": "",
       "startDate": "Feb 2022",
       "endDate": "Actualidad",
-      "summary": "Como Desarrollador Frontend en Tamnora, he participado en el diseño y desarrollo de interfaces de usuario para los clientes de la empresa. Además, he contribuido al desarrollo de componentes reutilizables para varios proyectos. A pesar de formar parte de un equipo pequeño, nos hemos centrado en garantizar la entrega de productos de alta calidad."
+      "summary": "Como Desarrollador Frontend en Tamnora, he participado en el diseño y desarrollo de interfaces de usuario para los clientes de la empresa. Además, he contribuido al desarrollo de componentes reutilizables para varios proyectos. A pesar de formar parte de un equipo pequeño, nos hemos centrado en garantizar la entrega de productos de alta calidad.",
+      "items": [
+        "Participé en el desarrollo de componentes reutilizables con los que completamos más de 5 proyectos en los últimos dos años, siempre enfocándonos en ofrecer una excelente interfaz y experiencia de usuario.",
+        "Dar seguimiento constante a sistemas en producción, ajustando según feedback del cliente para asegurar calidad y rendimiento.",
+        "Implementar tecnologías desde PHP, JavaScript vanilla, Svelte, hasta React y Tailwind, mejorando la eficiencia del desarrollo.",
+        "Realicé la mejora visual y de rendimiento web para productos como el Instituto Superior de Estudios Interdisciplinarios y Taller Maranello."
+      ]
     },
     {
       "name": "Instituto Superior ISEI",
-      "position": "Desarrollador Frontend Freelance",
+      "position": "Desarrollador FullStack",
       "url": "",
       "startDate": "Ene 2023",
       "endDate": "Dic 2023",
-      "summary": "Realicé la reestructuración del frontend del campus virtual de ISEI, pasando de PHP a tecnologías modernas como ReactJS, Tailwind y Vite. Este rediseño mejoró la experiencia del usuario, la navegación y el rendimiento general de la plataforma."
+      "summary": "Realicé la reestructuración del frontend del campus virtual de ISEI, pasando de PHP a tecnologías modernas como ReactJS, Tailwind y Vite. Este rediseño mejoró la experiencia del usuario, la navegación y el rendimiento general de la plataforma.",
+      "items": [
+        "Realicé la migración del frontend de PHP a React, mejorando significativamente la velocidad de carga y el mantenimiento del sistema.",
+        "Mejorar la experiencia del usuario mediante una plataforma más ágil y organizada, basada en feedback positivo de los clientes y usuarios.",
+        "Estructuré el código en secciones y componentes, facilitando la mantenibilidad."
+      ]
     },
     {
       "name": "Distri DAF",
@@ -50,7 +61,11 @@
       "url": "",
       "startDate": "May 2023",
       "endDate": "Nov 2023",
-      "summary": "Conceptualicé y desarrollé una aplicación personalizada para Distri DAF para optimizar los procesos de gestión de gastos e ingresos, abordando eficazmente problemas con el flujo de efectivo y reduciendo las pérdidas financieras debido a prácticas ineficientes de cobranza de deudas."
+      "summary": "Conceptualicé y desarrollé una aplicación personalizada para Distri DAF para optimizar los procesos de gestión de gastos e ingresos, abordando eficazmente problemas con el flujo de efectivo y reduciendo las pérdidas financieras debido a prácticas ineficientes de cobranza de deudas.",
+      "items": [
+        "Diseñar y desarrollar una aplicación para el registro y seguimiento de ventas, cobros, compras y pagos, facilitando la organización financiera del cliente.",
+        "El sistema ayudó a evitar pérdidas de dinero mediante un seguimiento detallado de ingresos y gastos,mejorando la eficiencia financiera del cliente."
+      ]
     }
   ],
   "education": [
@@ -73,70 +88,96 @@
       "name": "HTML",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend"
+        "Desarrollo Web",
+        "Frontend"
       ]
     },
     {
       "name": "CSS",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "JavaScript",
       "level": "Avanzado",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "Fullstack"
       ]
     },
     {
       "name": "Tailwind",
       "level": "Intermedio",
       "keywords": [
-        "Desarrollo Web", "Frontend", "CSS Framework", "Diseño Responsive"
+        "Desarrollo Web",
+        "Frontend",
+        "CSS Framework",
+        "Diseño Responsive"
       ]
     },
     {
       "name": "TypeScript",
       "level": "Intermedio",
       "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+        "Desarrollo Web",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
       "level": "Intermedio",
       "keywords": [
-        "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+        "Desarrollo Web",
+        "Backend",
+        "JavaScript",
+        "Servidor"
       ]
     },
     {
       "name": "MySQL",
       "level": "Intermedio",
       "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        "Bases de Datos",
+        "SQL",
+        "Almacenamiento de Datos",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Intermedio",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente"
       ]
     },
     {
       "name": "GitHub",
       "level": "Intermedio",
       "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        "Control de Versiones",
+        "Colaboración",
+        "Código Fuente",
+        "Git"
       ]
     },
     {
       "name": "React",
       "level": "Intermedio",
       "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        "Desarrollo Web",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
       ]
     }
   ],

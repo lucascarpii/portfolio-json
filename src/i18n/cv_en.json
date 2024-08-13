@@ -6,7 +6,7 @@
     "email": "lucascarpii2002@gmail.com",
     "phone": "+54 2996280574",
     "url": "https://tamnora.com",
-    "summary": "As a freelancer, I've designed and created applications for the past two years. Each project has been an opportunity to refine my skills and broaden my knowledge. Now, I'm seeking the opportunity to work with a team where I can grow and continue learning.",
+    "summary": "Over two years of experience as a Frontend Developer. I have contributed to the development of numerous projects, improving the user interface and user experience. Facilitating the creation and maintenance of systems in the long term. I am looking to continue learning and growing in the field of full stack development.",
     "location": {
       "address": "",
       "postalCode": "8324",
@@ -34,15 +34,26 @@
       "url": "",
       "startDate": "Feb 2022",
       "endDate": "Present",
-      "summary": "As a Frontend Developer at Tamnora, I've been involved in designing and developing user interfaces for the company's clients. Additionally, I've contributed to the development of reusable components for various projects. Despite being part of a small team, we have focused on ensuring the delivery of high-quality products."
+      "summary": "As a Frontend Developer at Tamnora, I've been involved in designing and developing user interfaces for the company's clients. Additionally, I've contributed to the development of reusable components for various projects. Despite being part of a small team, we have focused on ensuring the delivery of high-quality products.",
+      "items": [
+        "Participated in the development of reusable components with which we completed more than 5 projects in the last two years, always focusing on providing an excellent user interface and user experience.",
+        "Consistently monitored production systems, making adjustments based on client feedback to ensure quality and performance.",
+        "Implemented technologies ranging from PHP, vanilla JavaScript, and Svelte to React and Tailwind, improving development efficiency.",
+        "Enhanced the visual and web performance for products such as the Instituto Superior de Estudios Interdisciplinarios and Taller Maranello."
+      ]
     },
     {
       "name": "Instituto superior ISEI",
-      "position": "Freelance Frontend Developer",
+      "position": "FullStack Developer",
       "url": "",
       "startDate": "Jan 2023",
       "endDate": "Dec 2023",
-      "summary": "Led the redevelopment of ISEI's virtual campus frontend, transitioning from PHP to modern technologies such as ReactJS, Tailwind, and Vite. This redesign enhanced user experience, navigation, and overall performance of the platform."
+      "summary": "Led the redevelopment of ISEI's virtual campus frontend, transitioning from PHP to modern technologies such as ReactJS, Tailwind, and Vite. This redesign enhanced user experience, navigation, and overall performance of the platform.",
+      "items": [
+        "Migrated the frontend from PHP to React, significantly improving load speed and system maintenance.",
+        "Improved the user experience by creating a more agile and organized platform, based on positive feedback from clients and users.",
+        "Structured the code into sections and components, facilitating maintainability."
+      ]
     },
     {
       "name": "Distri DAF",
@@ -50,7 +61,11 @@
       "url": "",
       "startDate": "May 2023",
       "endDate": "Nov 2023",
-      "summary": "Conceptualized and developed a custom application for Distri DAF to streamline expense and income management processes, effectively addressing issues with cash flow and reducing financial losses due to inefficient debt collection practices."
+      "summary": "Conceptualized and developed a custom application for Distri DAF to streamline expense and income management processes, effectively addressing issues with cash flow and reducing financial losses due to inefficient debt collection practices.",
+      "items": [
+        "Designed and developed an application for recording and tracking sales, collections, purchases, and payments, facilitating the client's financial organization.",
+        "The system helped prevent financial losses by providing detailed tracking of income and expenses, improving the client's financial efficiency."
+      ]
     }
   ],
   "education": [
@@ -73,70 +88,96 @@
       "name": "HTML",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Frontend"
+        "Web Development",
+        "Frontend"
       ]
     },
     {
       "name": "CSS",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Frontend", "Responsive Design"
+        "Web Development",
+        "Frontend",
+        "Responsive Design"
       ]
     },
     {
       "name": "JavaScript",
       "level": "Advanced",
       "keywords": [
-        "Web Development", "Frontend", "Backend", "Fullstack"
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "Fullstack"
       ]
     },
     {
       "name": "Tailwind",
       "level": "Intermediate",
       "keywords": [
-        "Web Development", "Frontend", "CSS Framework", "Responsive Design"
+        "Web Development",
+        "Frontend",
+        "CSS Framework",
+        "Responsive Design"
       ]
     },
     {
       "name": "TypeScript",
       "level": "Intermediate",
       "keywords": [
-        "Web Development", "Frontend", "Backend", "JavaScript Superset"
+        "Web Development",
+        "Frontend",
+        "Backend",
+        "JavaScript Superset"
       ]
     },
     {
       "name": "Node",
       "level": "Intermediate",
       "keywords": [
-        "Web Development", "Backend", "JavaScript", "Server"
+        "Web Development",
+        "Backend",
+        "JavaScript",
+        "Server"
       ]
     },
     {
       "name": "MySQL",
       "level": "Intermediate",
       "keywords": [
-        "Databases", "SQL", "Data Storage", "Backend"
+        "Databases",
+        "SQL",
+        "Data Storage",
+        "Backend"
       ]
     },
     {
       "name": "Git",
       "level": "Intermediate",
       "keywords": [
-        "Version Control", "Collaboration", "Source Code"
+        "Version Control",
+        "Collaboration",
+        "Source Code"
       ]
     },
     {
       "name": "GitHub",
       "level": "Intermediate",
       "keywords": [
-        "Version Control", "Collaboration", "Source Code", "Git"
+        "Version Control",
+        "Collaboration",
+        "Source Code",
+        "Git"
       ]
     },
     {
       "name": "React",
       "level": "Intermediate",
       "keywords": [
-        "Web Development", "Frontend", "JavaScript Library", "UI"
+        "Web Development",
+        "Frontend",
+        "JavaScript Library",
+        "UI"
       ]
     }
   ],

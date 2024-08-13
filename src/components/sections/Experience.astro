@@ -1,49 +1,59 @@
 ---
-import Section from "../Section.astro"
+import Section from "../Section.astro";
 
-import { getI18N } from '@/i18n/index'
+import { getI18N } from "@/i18n/index";
 const { currentLocale } = Astro;
-const i18n = getI18N({currentLocale})
+const i18n = getI18N({ currentLocale });
 
 const { work } = i18n;
 
-const sectionTitle = currentLocale == 'es' ? 'Experiencia laboral' : 'Experience'
+const sectionTitle =
+  currentLocale == "es" ? "Experiencia laboral" : "Experience";
+const sectionId = currentLocale == "es" ? "experiencia" : "experience";
 ---
 
 <Section title={sectionTitle}>
-  <ul id="experiencia" class="flex flex-col gap-8">
+  <ul id={sectionId} class="flex flex-col gap-6 mt-8">
     {
-      work.map(
-        ({ name, startDate, endDate, position, summary, url }) => {
-          // const startYear = new Date(startDate).getFullYear()
-          // const endYear =
-          //   endDate != null ? new Date(endDate).getFullYear() : "Actual"
-          const years = `${startDate} - ${endDate}`
+      work.map(({ name, startDate, endDate, position, summary, items }) => {
+        const years = `${startDate} - ${endDate}`;
 
-          return (
-            <li class="mt-6">
-              <article>
-                <header class="flex justify-between items-start mb-1">
-                  <div>
-                    <h3 class="text-neutral-600 dark:text-neutral-200 text-lg font-semibold">
-                      <a class="hover:underline" href={url} title={`Ver ${name}`} target="_blank">
-                        {name}
-                      </a>
-                    </h3>
-                    <h4 class="text-neutral-400 dark:text-neutral-500 text-sm -mt-1.5">{position}</h4>
-                  </div>
+        return (
+          <li class="">
+            <article>
+              <header class="flex justify-between items-start mb-1">
+                <div>
+                  <h3 class="text-neutral-600 dark:text-neutral-200 text-lg font-semibold">
+                    {name}
+                  </h3>
+                  <h4 class="text-neutral-400 dark:text-neutral-500 text-sm -mt-1.5">
+                    {position}
+                  </h4>
+                </div>
 
-                  <time class="min-w-[102px] text-sm text-right text-neutral-500 dark:text-neutral-600 font-medium">{years}</time>
-                </header>
+                <time class="min-w-[102px] text-sm text-right text-neutral-500 dark:text-neutral-600 font-medium">
+                  {years}
+                </time>
+              </header>
 
-                <footer>
-                  <p class="text-neutral-400 dark:text-neutral-400 text-sm">{summary}</p>
-                </footer>
-              </article>
-            </li>
-          )
-        }
-      )
+              <footer>
+                {/* <p class="text-neutral-400 dark:text-neutral-400 text-sm">
+                  {summary}
+                </p> */}
+                <ul class="list-disc ps-4 space-y-1">
+                  {items.map((data) => {
+                    return (
+                      <li class="text-neutral-400 dark:text-neutral-400 text-sm">
+                        {data}
+                      </li>
+                    );
+                  })}
+                </ul>
+              </footer>
+            </article>
+          </li>
+        );
+      })
     }
   </ul>
 </Section>

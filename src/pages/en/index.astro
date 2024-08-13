@@ -8,12 +8,13 @@ import Skills from '../../components/sections/Skills.astro';
 import Header from '../../components/Header.astro';
 
 import { basics } from "../../i18n/cv_en.json"
+
 const { name, label } = basics
 ---
 
 <Layout title={`${name} Portfolio`}>
 	<Header />
-	<main id="sobre-mi" class="max-w-screen-md mx-auto p-4 sm:p-8 pt-10">
+	<main class="max-w-screen-md mx-auto p-4 sm:p-8 pt-10">
 		<Hero />
 		<About />
 		<Experience />
