@@ -40,7 +40,7 @@ const sectionId = currentLocale == "es" ? "sobre-mi" : "about";
       >
         {saludo}{" "}
         <span
-          class="text-transparent bg-clip-text bg-gradient-to-l to-blue-600 from-purple-500 dark:from-blue-600 dark:to-purple-400"
+          class="text-transparent bg-clip-text bg-gradient-to-l to-blue-600 from-purple-500 dark:from-blue-500 dark:to-purple-400"
         >
           {name}
         </span>
@@ -52,20 +52,7 @@ const sectionId = currentLocale == "es" ? "sobre-mi" : "about";
         <WorldMap />
         {city}, {region}
       </span>
-      <footer class="print:hidden flex text-sm gap-1 mt-1">
-        {
-          email && (
-            <a
-              href={`mailto:${email}`}
-              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
-              target="_blank"
-              rel="noopener noreferrer"
-              class="flex h-fit border dark:border-neutral-800 items-center gap-1 p-1.5 rounded-md focus:ring-2 ring-neutral-200 dark:ring-neutral-700 hover:bg-neutral-100 hover:dark:bg-neutral-800 focus:bg-neutral-100 focus:dark:bg-neutral-800 text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-200"
-            >
-              <Mail />
-            </a>
-          )
-        }
+      <footer class="print:hidden flex text-sm gap-1.5 mt-1">
         {
           profiles.map(({ network, url, username }) => {
             const Icon = SOCIAL_ICONS[network];
@@ -75,13 +62,32 @@ const sectionId = currentLocale == "es" ? "sobre-mi" : "about";
                 title={`Visitar el perfil de ${name} en ${network}`}
                 target="_blank"
                 rel="noopener noreferrer"
-                class="flex max-h-[30px] border dark:border-neutral-800 items-center gap-1 p-1.5 rounded-md focus:ring-2 ring-neutral-200 dark:ring-neutral-700 hover:bg-neutral-100 hover:dark:bg-neutral-800 focus:bg-neutral-100 focus:dark:bg-neutral-800 text-neutral-400 hover:text-neutral-600 dark:hover:text-neutral-200"
+                class="flex group items-center shadow-sm gap-1.5 relative overflow-hidden rounded-lg p-[2px] outline-none"
               >
-                <Icon />
-                <span>{network}</span>
+                <span class="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] bg-neutral-800 group-hover:bg-[conic-gradient(from_90deg_at_50%_50%,#be84fc_0%,#3f82f6_50%,#be84fc_100%)] group-focus:bg-[conic-gradient(from_90deg_at_50%_50%,#be84fc_0%,#3f82f6_50%,#be84fc_100%)]" />
+                <div class="inline-flex h-full w-full cursor-pointer items-center gap-1.5 rounded-md justify-between bg-neutral-900 group-hover:bg-neutral-900/90 transition-all px-2 py-1 duration-300 backdrop-blur-3xl">
+                  <Icon />
+                  <span>{network}</span>
+                </div>
               </a>
             );
           })
+        }
+        {
+          email && (
+            <a
+              href={`mailto:${email}`}
+              title={`Enviar un correo electrónico a ${name} al correo ${email}`}
+              target="_blank"
+              rel="noopener noreferrer"
+              class="flex group items-center shadow-sm gap-1.5 relative overflow-hidden rounded-lg p-[2px] outline-none"
+            >
+              <span class="absolute inset-[-1000%] animate-[spin_3s_linear_infinite] bg-neutral-800 group-hover:bg-[conic-gradient(from_90deg_at_50%_50%,#be84fc_0%,#3f82f6_50%,#be84fc_100%)] group-focus:bg-[conic-gradient(from_90deg_at_50%_50%,#be84fc_0%,#3f82f6_50%,#be84fc_100%)]" />
+              <div class="inline-flex h-full w-full cursor-pointer items-center gap-1.5 rounded-md justify-between bg-neutral-900 group-hover:bg-neutral-900/90 transition-all px-2 py-1 duration-300 backdrop-blur-3xl">
+                <Mail />
+              </div>
+            </a>
+          )
         }
       </footer>
     </div>
